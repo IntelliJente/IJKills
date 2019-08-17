@@ -1,0 +1,44 @@
+not-int: "&4&lERROR &c<&7%int%&c> must be a number"
+
+commands:
+  see-your-kills:
+    name: "kills"
+  player-kills:
+    name: "playerkills"
+    message: "&e/ijkills %player-kills-command% <player>"
+  set-kills:
+    name: "setKills"
+    message: "&e/ijkills %set-kills-command% <player> <x>"
+  add-kills:
+    name: "addkills"
+    message: "&e/ijkills %add-kills-command% <player> <x>"
+  remove-kills:
+    name: "removekills"
+    message: "&e/ijkills %remove-kills-command% <player> <x>"
+  spawn-top-1:
+    name: "spawntop1"
+  spawn-top-2:
+    name: "spawntop2"
+  spawn-top-3:
+    name: "spawntop3"
+  remove-npcs:
+    name: "removenpcs"
+
+command-help-user:
+  - ""
+  - "&e/ijkills %see-your-kills-command% -&f see your kills"
+  - "&e/ijkills %player-kills-command% <player> -&f see player kills"
+  - "&e/ijkills-admin -&f too see admin commands"
+  - ""
+
+command-help-admin:
+  - ""
+  - "&e/ijkills-admin %set-kills-command% <player> <x> - &fset player kills"
+  - "&e/ijkills-admin %add-kills-command% <player> <x> - &fadd kills to a player"
+  - "&e/ijkills-admin %remove-kills-command% &f<player> <x> - remove player kills"
+  - "&e/ijkills-admin %spawn-top-1-command% - &fspawn top1 npc"
+  - "&e/ijkills-admin %spawn-top-2-command% - &fspawn top2 npc"
+  - "&e/ijkills-admin %spawn-top-3-command% - &fspawn top3 npc"
+  - "&e/ijkills-admin %remove-npcs-command% - &fdelete top 3 npcs"
+  - "&e/ijkills-admin reload - &freload configs (message / commands)"
+  - ""

@@ -1,0 +1,8 @@
+#If false player will continue with old kills!
+start-with-0-kills: true
+#Connect your mysql
+Host: 'localhost'
+Port: 3306
+Username: 'root'
+Password: '123'
+Database: 'server'

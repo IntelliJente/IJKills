@@ -1,0 +1,27 @@
+npcs:
+  #seconds
+  verify-time: 300
+  top1:
+    hd1: "&4&lTop Kills"
+    hd2: "&cTop 1"
+  top2:
+    hd: "&cTop 2"
+  top3:
+    hd: "&cTop 3"
+
+console-command: "&6Only players can use that command!"
+
+your-kills: "&aYou have &7%kills% &akills!"
+
+see-player-kills: "&7%player% &ahas &7%kills% &akills!"
+
+set-kills-admin: "&aDone! &7%player% &akills are now &7%int%&a!"
+set-kills-player: "&aNow you have &7%int% &akills!"
+
+add-kills-admin: "&aDone! Added &7%int% &akills to &7%player%&a!"
+add-kills-player: "&aSomeone added you &7%int% &akills!"
+
+remove-kills-admin: "&aDone! Removed &7%int% &akills from &7%player%&a!"
+remove-kills-player: "&aSomeone removed you &7%int% &akills!"
+
+reload-config: "&aDone! Config reloaded!"

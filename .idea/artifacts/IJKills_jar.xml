@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IJKills:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IJKills_jar</output-path>
+    <root id="archive" name="IJKills.jar">
+      <element id="module-output" name="IJKills" />
+    </root>
+  </artifact>
+</component>

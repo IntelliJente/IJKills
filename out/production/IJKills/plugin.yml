@@ -1,0 +1,12 @@
+name: IJKills
+version: 1.0
+main: pt.intellijente.kills.Main
+softdepend: [Citizens]
+author: IntelliJente
+commands:
+  ijkills:
+    aliases: kills
+    description: user commands
+  ijkills-admin:
+    aliases: kills-admin
+    description: admin commands
